@@ -106,3 +106,60 @@ li {
   color: black;
   margin-right: 25px;
 }
+
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ebebeb;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.options {
+  width: 1200px;
+}
+
+.option-title {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.option-title-name {
+  font-size: 25px;
+  font-weight: 100;
+  color: #666666;
+  margin-right: 10px;
+}
+
+.option-title-sub {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+  color: #3483fa;
+}
+
+.benefits-platforms {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.benefits-platforms img {
+  border-radius: 6px;
+}
+
+.popular-icons {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 20px;
+}
