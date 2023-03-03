@@ -127,6 +127,9 @@ section {
 
 .options {
   width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .option-title {
@@ -160,6 +163,7 @@ section {
   background-color: #fff;
   align-items: center;
   border-radius: 4px;
+  box-shadow: 0 1px 1px 0 rgb(0 0 0 / 10%);
 }
 
 .payment-method {
@@ -220,15 +224,20 @@ section {
   width: 225px;
   height: 350px;
   border-radius: 4px;
+  box-shadow: 0 1px 1px 0 rgb(0 0 0 / 10%);
 }
 
 .deal-image {
   width: 224px;
   height: 224px;
+}
+
+.deal-image img {
   border-bottom: 1px solid #eeeeee;
 }
 
 .deal-info {
+  border-top: 1px solid #eeeeee;
   height: 51px;
   width: 198px;
   padding-left: 16px;
@@ -259,12 +268,116 @@ section {
 }
 
 .shipping {
+  height: 23px;
+  padding-top: 3px;
   font-weight: 600;
   font-size: 13px;
   color: #00a650;
 }
 
+/* SUBSCRIPTION */
+
+.subscription {
+  margin-top: 57px;
+  width: 1180px;
+  height: 340px;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 1px 1px 0 rgb(0 0 0 / 10%);
+}
+
+.subscription-header {
+  width: 100%;
+  height: 87px;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 24px;
+  align-items: center;
+  border-radius: 4px 4px 0 0;
+  background: linear-gradient(90deg, #a90f90 55%, #0c1a51 100%);
+}
+
+.subscription-title {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.subscription-price {
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid #fff;
+  padding-left: 16px;
+}
+
+.subscription-normal {
+  font-size: 14px;
+  text-decoration-line: line-through;
+}
+
+.subscription-discount {
+  font-size: 22px;
+}
+
+.subscription-discount span {
+  font-size: 13px;
+}
+
+.subscription-body {
+  width: 100%;
+  height: 172px;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  padding-left: 24px;
+  gap: 28px;
+}
+
+.subscription-benefits {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.subscription-benefit {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.subscription-benefit-description {
+  width: 200px;
+}
+
+.subscription-footer {
+  border-top: 1px solid #eeeeee;
+  width: 100%;
+  height: 81px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.subscription-footer button {
+  cursor: pointer;
+  height: 48px;
+  width: 124px;
+  color: #fff;
+  background: #3483fa;
+  border-radius: 6px;
+  border: 1px solid transparent;
+  margin-right: 30px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
 /* BENEFITS */
+
+.points-benefits .option-title {
+  margin-top: 70px;
+}
 
 .benefits-platforms {
   display: flex;
