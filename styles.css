@@ -136,7 +136,7 @@ section {
   height: 100%;
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: baseline;
   gap: 10px;
 }
 
@@ -335,6 +335,10 @@ section {
   gap: 28px;
 }
 
+.subscription-summary span {
+  font-size: 17px;
+}
+
 .subscription-benefits {
   display: flex;
   flex-direction: row;
@@ -349,7 +353,8 @@ section {
 }
 
 .subscription-benefit-description {
-  width: 200px;
+  width: 240px;
+  font-size: 16px;
 }
 
 .subscription-footer {
@@ -371,6 +376,7 @@ section {
   margin-right: 30px;
   margin-top: 16px;
   margin-bottom: 16px;
+  font-size: 15px;
 }
 
 /* BENEFITS */
@@ -388,6 +394,77 @@ section {
 
 .benefits-platforms img {
   border-radius: 6px;
+}
+
+/* DISCOVER */
+
+.discover {
+  margin-top: 90px;
+  width: 100%;
+}
+
+.discover-options {
+  height: 249px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 16px;
+}
+
+.discover-card {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 1px 1px 0 rgb(0 0 0 / 10%);
+}
+
+.discover-card img {
+  width: 290px;
+  height: 250px;
+  object-fit: fill;
+  border-radius: 0 4px 4px 0;
+}
+
+.discover-card-info {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-left: 32px;
+  margin-top: 57px;
+  text-transform: uppercase;
+}
+
+.discover-card-info-summary {
+  font-size: 12px;
+}
+
+.discover-card-info-description {
+  font-size: 28px;
+  font-weight: 600;
+  color: #4b4b4b;
+  width: 255px;
+}
+
+.description-special {
+  display: block;
+  font-size: 27px;
+  font-weight: 600;
+}
+
+.discover-card-info button {
+  cursor: pointer;
+  height: 48px;
+  width: 124px;
+  color: #fff;
+  background: #3483fa;
+  border-radius: 2px;
+  border: 1px solid transparent;
+  margin-right: 30px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  font-size: 15px;
 }
 
 /* POPULAR */
