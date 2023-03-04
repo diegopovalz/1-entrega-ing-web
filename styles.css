@@ -111,7 +111,7 @@ li {
 /* MAIN */
 
 main {
-  width: 100%;
+  width: 1200px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -126,16 +126,18 @@ section {
 }
 
 .options {
-  width: 1200px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .option-title {
+  width: 100%;
   height: 100%;
   display: flex;
   flex-direction: row;
+  justify-content: flex-start;
   align-items: baseline;
   gap: 10px;
 }
@@ -209,6 +211,7 @@ section {
 /* DEALS */
 
 .deals {
+  width: 100%;
   margin-top: 50px;
 }
 
@@ -381,6 +384,10 @@ section {
 
 /* BENEFITS */
 
+.points-benefits {
+  width: 100%;
+}
+
 .points-benefits .option-title {
   margin-top: 70px;
 }
@@ -388,8 +395,7 @@ section {
 .benefits-platforms {
   display: flex;
   flex-direction: row;
-  gap: 16px;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .benefits-platforms img {
@@ -399,12 +405,15 @@ section {
 /* DISCOVER */
 
 .discover {
-  margin-top: 90px;
   width: 100%;
 }
 
+.discover .option-title {
+  margin-top: 90px;
+}
+
 .discover-options {
-  height: 249px;
+  width: 1200px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -412,9 +421,11 @@ section {
 }
 
 .discover-card {
+  width: 100%;
+  height: 249px;
   display: flex;
   flex-direction: row;
-  gap: 20px;
+  justify-content: space-between;
   background-color: #fff;
   border-radius: 4px;
   box-shadow: 0 1px 1px 0 rgb(0 0 0 / 10%);
@@ -465,6 +476,25 @@ section {
   margin-top: 16px;
   margin-bottom: 16px;
   font-size: 15px;
+}
+
+/* STORES */
+
+.stores {
+  margin-top: 54px;
+  width: 100%;
+}
+
+.store-options {
+  height: 340px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.store-option {
+  width: 284px;
+  background-color: #fff;
 }
 
 /* POPULAR */
