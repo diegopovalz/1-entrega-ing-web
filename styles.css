@@ -496,6 +496,7 @@ section {
   width: 284px;
   background-color: #fff;
   border-radius: 4px;
+  box-shadow: 0 1px 1px 0 rgb(0 0 0 / 10%);
 }
 
 .store-image img {
@@ -557,6 +558,7 @@ section {
 .main-collection {
   background-color: #fff;
   border-radius: 4px;
+  box-shadow: 0 1px 1px 0 rgb(0 0 0 / 10%);
 }
 
 .main-collection img {
@@ -594,11 +596,17 @@ section {
   gap: 11px;
 }
 
+.other-collections img {
+  box-shadow: 0 1px 1px 0 rgb(0 0 0 / 10%);
+}
+
 /* POPULAR */
 
 .popular {
   margin-top: 54px;
   width: 100%;
+  margin-bottom: 18px;
+  box-shadow: 0 1px 1px 0 rgb(0 0 0 / 10%);
 }
 
 .popular-categories {
@@ -641,4 +649,122 @@ section {
 
 .category-title span {
   color: #333333;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: #fff;
+  height: 530px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-features-container {
+  width: 100%;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.footer-features {
+  height: 355px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  gap: 0;
+  margin: 0 auto;
+}
+
+.feature {
+  width: 400px;
+  height: 260px;
+  display: flex;
+  flex-direction: column;
+}
+
+.feature-icon {
+  height: 58px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.feature-title {
+  margin-top: 27px;
+  font-size: 19px;
+  font-weight: 500;
+  color: #4b4b4b;
+}
+
+.feature-description {
+  width: 300px;
+  margin: 16px auto 0 auto;
+  font-size: 15px;
+  font-weight: 400;
+  color: #999999;
+}
+
+.feature-knowmore {
+  margin-top: 16px;
+  font-size: 13px;
+  font-weight: 400;
+  color: #3483fa;
+}
+
+.footer-info {
+  height: 156px;
+  width: 1180px;
+  margin-bottom: 24px;
+}
+
+.footer-info-about {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #e6e6e6;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.footer-info-links {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.footer-info-links span {
+  font-size: 12px;
+  font-weight: 500;
+  color: #333333;
+}
+
+.footer-info-copyright,
+.footer-info-address {
+  font-size: 12px;
+  font-weight: 400;
+  color: #999999;
+}
+
+.footer-info-copyright {
+  margin-top: 7px;
+}
+
+.footer-info-warnings {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer-info-sic {
+  width: 141px;
+  height: 30px;
+}
+
+.footer-info-pum {
+  width: 200px;
+  height: 34px;
 }
