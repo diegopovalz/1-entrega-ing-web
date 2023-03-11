@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 body {
@@ -621,6 +621,7 @@ section {
 .category-icon {
   width: 48px;
   height: 48px;
+  margin-top: 16px;
 }
 
 .category-icon svg {
@@ -629,6 +630,9 @@ section {
 }
 
 .category-title {
+  height: 35px;
+  display: flex;
+  justify-content: flex-start;
   padding-left: 13px;
   padding-right: 13px;
   font-size: 14px;
@@ -636,6 +640,5 @@ section {
 }
 
 .category-title span {
-  vertical-align: bottom;
   color: #333333;
 }
